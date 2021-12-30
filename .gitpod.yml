@@ -1,5 +1,6 @@
 tasks:
   - init: |
-      echo 'TODO: build project'
+      npm install -g @angular/cli
+      cd a1 && npm install
     command: |
       echo 'TODO: start app'
