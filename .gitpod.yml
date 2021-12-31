@@ -2,5 +2,6 @@ tasks:
   - init: |
       npm install -g @angular/cli
       cd a1 && npm install
+      sdk default java 17.0.1-open
     command: |
       echo 'TODO: start app'
